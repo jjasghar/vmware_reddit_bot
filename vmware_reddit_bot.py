@@ -6,9 +6,9 @@ import re
 def bot_login():
     print("Logging in...")
     r = praw.Reddit(username = "branding_bot",
-                    password = "Good1bye!",
-                    client_id = "XZcY4JWTuNb_uw",
-                    client_secret = "o2OroL08LBnWuijNxA_6Akgnl6w",
+                    password = os.environ['PASSWORD'],
+                    client_id = os.environ['CLIENT_ID'],
+                    client_secret = os.environ['CLIENT_SECRET'],
                     user_agent = '<console:branding_bot:0.0.1 (by /u/jjasghar)'
                     )
     print("Logged in!")
