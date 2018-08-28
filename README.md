@@ -2,8 +2,7 @@
 
 ## Scope
 
-This is a simple branding bot for VMware. This periodic checks a few subreddits
-then comments when someone spells VMware as `VMWare`.
+This is a simple branding bot for VMware. This periodically checks a few subreddits then comments when someone spells VMware as `VMWare`.
 
 ## Running
 
