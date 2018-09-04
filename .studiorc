@@ -1,0 +1,4 @@
+hab install core/python37
+hab pkg binlink core/python37 python
+python -m pip install pylint
+python -m pip install praw

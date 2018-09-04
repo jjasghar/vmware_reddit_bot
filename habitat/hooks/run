@@ -1,0 +1,10 @@
+exec 2>&1
+
+export PASSWORD={{cfg.bot_password}}
+export CLIENT_ID={{cfg.bot_client_id}}
+export CLIENT_SECRET={{cfg.bot_client_secret}}
+export SUBREDDITS="{{strJoin cfg.subreddits " "}}"
+export REDDIT_USERNAME="{{cfg.reddit_username}}"
+export BOT_REPLY_MESSAGE="{{cfg.bot_reply_message}}"
+
+exec python {{pkg.path}}/bin/{{pkg.name}}.py

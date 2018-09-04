@@ -1,0 +1,8 @@
+bot_password = 'yourpassword'
+bot_client_id = 'yourclientid'
+bot_client_secret = 'yourclientsecret'
+
+reddit_username = 'yourusernamehere'
+subreddits = ['test']
+
+bot_reply_message = "A friendly note, the official branding of [VMware](https://www.vmware.com/) is without a capital 'W'. Take a look [here](https://www.vmware.com/brand/our-brand.html) if you'd like more details. _Beep Boop I'm a bot if you have questions or suggestions please message /u/yourusernamehere about it_."
